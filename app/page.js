@@ -1,6 +1,11 @@
 import Image from 'next/image'
 import styles from './page.module.css'
 
+export default async function handler(req, res) {
+  res.status(201).json({}); 
+  return 'sikuji';
+}
+/*
 export default function Home() {
   return (
     <main className={styles.main}>
@@ -93,3 +98,4 @@ export default function Home() {
     </main>
   )
 }
+*/
